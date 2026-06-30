@@ -1,7 +1,7 @@
-+++
-title = "SuperDuck"
-type = "home"
-+++
+---
+title: Bloggy
+toc: false
+---
 
 Hello folks,
 

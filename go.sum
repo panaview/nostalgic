@@ -1,2 +1,4 @@
 github.com/McShelby/hugo-theme-relearn v0.0.0-20251216191020-41d0ca7e2715 h1:Yn5agDgWX2jFIa9GjOhOLchfu1yW5XZ9JMJ1ZMwMJkc=
 github.com/McShelby/hugo-theme-relearn v0.0.0-20251216191020-41d0ca7e2715/go.mod h1:mKQQdxZNIlLvAj8X3tMq+RzntIJSr9z7XdzuMomt0IM=
+github.com/sergeyklay/gohugo-theme-ed v0.9.0 h1:Z3jalozMhKc4XVe1VAybWNyFGhyARzYBGn+efdA36j4=
+github.com/sergeyklay/gohugo-theme-ed v0.9.0/go.mod h1:1/VLBmJiJUJP93Qwdg2HzJzWq2dfgf6UVnWhAnbouYg=

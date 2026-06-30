@@ -1,28 +1,28 @@
-baseURL = 'https://panaview.github.io/bloggy'
+baseURL = 'https://panaview.github.io/nostalgic'
 languageCode = 'en-us'
-title = 'Bloggy!'
+title = 'Nostalgic'
 
 # This defines how dates are formatted
 defaultContentLanguage = "en-gb"
 
-# Enable emojis globally
-enableEmoji = true
-ignoreErrors = ["additional-script-loading-error"] # ignore error of loading additional scripts.
-
 [module]
   [[module.imports]]
-    path = 'github.com/McShelby/hugo-theme-relearn'
+    path = 'github.com/sergeyklay/gohugo-theme-ed'
 
 [params]
-  linkTitle = 'Bloggy!'
-  disableLandingPageButton = true
-  showVisitedLinks = true
-  alwaysopen = false
-  themeVariant = 'relearn-dark'
-  collapsibleMenu = true
-  [params.search]
-    disable = true
-    [params.search.index]
-      disable = true
-    [params.search.page]
-      disable = true
+  description = 'Hoping to genuinely learn more, teach more, build more.'
+  name = 'Some Junior SWE'
+  email = 'mountainousjourney@gmail.com'
+  footer = 'Built with <a href="https://github.com/sergeyklay/gohugo-theme-ed" target="_blank" rel="noopener noreferrer">Ed</a>. Distributed under an MIT license.'
+  tagline = 'learn more, remember more, teach more'
+  [params.comments]
+    enable = false
+
+# For more see https://gohugo.io/content-management/menus/
+[menus]
+  [[menus.main]]        # sections in the website sidebar
+    identifier = 'home' # menu item id
+    name = 'Home'       # menu item display title
+    pageRef = '/'       # path to the page
+    weight = 1          # order of the menu item
+ 
