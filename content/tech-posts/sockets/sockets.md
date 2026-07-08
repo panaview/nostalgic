@@ -1,6 +1,6 @@
 +++
 date = '2025-04-28T23:18:08+02:00'
-title = 'Sockets'
+title = 'Deep-Dive: Sockets'
 +++
 
 Reference #1: https://www.youtube.com/watch?v=D26sUZ6DHNQ

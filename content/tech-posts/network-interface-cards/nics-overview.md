@@ -1,9 +1,9 @@
----
-author: panaview
-title: NIC Offloads
-date: 2025-02-09
-description: NIC Offloads
----
++++
+date = '2026-07-08T22:05:09+02:00'
+draft = false
+title = 'Deep-Dive: Network Card Offload'
++++
+
 
 # Reference: 
 Deep Dive on NIC - IETF: https://www.youtube.com/watch?v=wHM7RVk3-yk
@@ -13,7 +13,7 @@ Network Performance in Linux Kernel Maxime Chevallier: https://www.youtube.com/w
 
 Scope of the presentation is
 - Basic NIC support
-- Hardware offload from host stack functionalityh
+- Hardware offload from host stack functionality
 - Linux kernel is reference for architecture and APIs
 
 More interesting details which are out-of-scope here:
@@ -209,7 +209,7 @@ TLS:
 
 IPsec:
 - Crypto offload: HW handles encrypt, decrypt, integrity, lso, checksum; Kernel handles Padding/anti-replay/counters/security policy DB; User-space IKE
-- Full offload: HW handles Replay/Encap/Decap/SPD/LSO/Checksum/LRO; Kernel handles IP fragmentation,counters, configuration; and user-space handles IKE
+- Full offload: HW handles Replay/Encap/Decap/SPD/LSO/Checksum/LRO; Kernel handles IP fragmentation, counters, configuration; and user-space handles IKE
 
 ## Programmability:
 - Two types are mainly used today: FPGA/NPU and General Purpose processor

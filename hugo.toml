@@ -10,11 +10,11 @@ defaultContentLanguage = "en-gb"
     path = 'github.com/sergeyklay/gohugo-theme-ed'
 
 [params]
-  description = 'Hoping to genuinely learn more, teach more, build more.'
-  name = 'Some Junior SWE'
+  description = 'Welcome'
+  name = 'Stew'
   email = 'mountainousjourney@gmail.com'
   footer = 'Built with <a href="https://github.com/sergeyklay/gohugo-theme-ed" target="_blank" rel="noopener noreferrer">Ed</a>. Distributed under an MIT license.'
-  tagline = 'learn more, remember more, teach more'
+  tagline = "for an era of craft long gone"
   [params.comments]
     enable = false
 

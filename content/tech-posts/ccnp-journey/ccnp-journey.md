@@ -1,6 +1,7 @@
 +++
 date = '2025-12-08T23:40:50+01:00'
-title = 'Study Objective'
+title = 'Overview: CCNP Learning Journey'
+draft = true
 +++
 
 Here are the chapters explored within my study of the CCNP Enterprise certificate:

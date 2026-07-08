@@ -1,5 +1,6 @@
 +++
 date = '2025-04-27T01:32:49+02:00'
+draft = true
 title = 'Adapting my learning process'
 +++
 

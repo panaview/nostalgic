@@ -1,5 +1,6 @@
 +++
 date = '2025-04-29T22:54:34+02:00'
+draft = true
 title = 'Pragmatic Programmer - Tracer Bullets'
 +++
 
