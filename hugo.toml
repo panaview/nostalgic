@@ -25,4 +25,9 @@ defaultContentLanguage = "en-gb"
     name = 'Home'       # menu item display title
     pageRef = '/'       # path to the page
     weight = 1          # order of the menu item
+  [[menus.main]]        # sections in the website sidebar
+    identifier = 'repository' # menu item id
+    name = 'Repository'       # menu item display title
+    url = 'https://github.com/panaview/nostalgic/tree/master'       # path to the page
+    weight = 2          # order of the menu item
  

@@ -1,21 +1,27 @@
 <pre class="markmap">
   {{ .Inner | htmlEscape | safeHTML }}
 </pre>
-<script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.18.0/dist/index.min.js"></script>
-<style>
-  .markmap,
-  .markmap-container {
-    width: 100%;
-    min-height: 320px;
-    border: 1px solid #e5e7eb;
-    border-radius: 8px;
-    overflow: hidden;
-    margin: 1rem 0;
-  }
 
-  .markmap svg,
-  .markmap-container svg {
-    width: 100%;
-    height: 100%;
-  }
+<style>
+	.markmap {
+		position: relative;
+	}
+	.markmap > svg {
+		width: 100%;
+		height: 300px;
+	}
 </style>
+
+<script>
+  window.markmap = {
+    /** @type AutoLoaderOptions */
+		autoLoader: {
+      toolbar: false, // Disable toolbar
+      manual: false, // Load markmap
+		},
+    
+	};
+</script>
+
+<!-- Load markmap from CDN -->
+<script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@latest"></script>

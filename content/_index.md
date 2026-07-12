@@ -24,11 +24,38 @@ Mindmaps of topics I am interested in:
 
 ```markmap
 # Topics
-## Virtual Memory
-## Copy-on-Write
-## Page Faults
-## TLB
-## PCI
-## Bootloader
-## Firmware
+## Organization and Note-taking
+### 
+## Development Environment
+### rgrep
+### fzf
+### ohmyzsh
+### vim
+### vscode
+### nvim
+### Linux env (networking, hardware, drivers)
+## Certificates (CCNP)
+### Learning Objectives / Career Impacts / Deadlines Goals
+### Labbing Environment
+#### CML
+#### ContainerLab
+## QEMU
+### RISC-V Environment
+## Technologies
+### Kubernetes
+### Etcd
+## System Design Topics
+### Consistent Hashing
+### Message Queues
+## Computer Science Topics
+### Memory Hierarchy
+### Virtual Memory
+### Copy-on-Write
+### Page Faults
+### TLB
+### PCI
+### Bootloader
+### Firmware
+### Cache Coherency Protocols
+## Game Development
 ```
