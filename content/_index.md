@@ -25,7 +25,8 @@ Mindmaps of topics I am interested in:
 ```markmap
 # Topics
 ## Organization and Note-taking
-### 
+### Obsidian
+### Spaced-repetition / Anki
 ## Development Environment
 ### rgrep
 ### fzf
@@ -34,19 +35,57 @@ Mindmaps of topics I am interested in:
 ### vscode
 ### nvim
 ### Linux env (networking, hardware, drivers)
+## Storage
+### SPDK
+## Networking
+### NAT/CGNAT
+### Bridge interfaces / macvtap
+### TAP / TUP
+### Network Manager vs netplan
+### Vector Packet Process
+### eBPF
+### DPDK
+### RFC1918
+## Automation
+### Ansible
+### Terraform
+### Cisco Modeling Labs
 ## Certificates (CCNP)
 ### Learning Objectives / Career Impacts / Deadlines Goals
 ### Labbing Environment
 #### CML
 #### ContainerLab
-## QEMU
+## Local Virtualization
+### QEMU
+### libVirt / KVM
 ### RISC-V Environment
+### P4 development environment
+## Low-Level/Hardware
+### Language-specifics / Programming Paradigms
+#### VPP / Dataplane Programming
+##### Per-worker elements
+##### False-sharing concerns
+##### Cache alignment and padding
+##### Big-endian/Little-endian (and network-order)
+### NIC
+#### Offloading
+#### Programming DPUs (P4, x86/aarch integrated cores)
+### DPDK
+### Kernel Drivers
+### Linux Networking Stack
+### Assembly / Special Instructions
+#### SIMD / vector instructions
+### Compilers
+### Linkers
 ## Technologies
 ### Kubernetes
 ### Etcd
+### Databases (?)
 ## System Design Topics
 ### Consistent Hashing
 ### Message Queues
+### CDNs
+### Load-Balancing
 ## Computer Science Topics
 ### Memory Hierarchy
 ### Virtual Memory

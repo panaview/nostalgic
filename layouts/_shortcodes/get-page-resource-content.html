@@ -1,0 +1,19 @@
+{{ $localPath := .Get "localPath" }}
+{{ $globalPath := .Get "globalPath" }}
+
+{{ if $localPath }}
+  {{- with $.Page.Resources.Get $localPath  }}	
+    {{- .Content | strings.TrimSpace | safeHTML }}
+  {{- else }}
+    {{- errorf "The %q shortcode with parameter 'localPath' was unable to find %s: see %s" $.Name $localPath $.Position }}
+  {{- end }}
+{{ else if $globalPath }}
+    {{- with resources.Get $globalPath  }}	
+      {{- .Content | strings.TrimSpace | safeHTML }}
+    {{- else }}
+      {{- errorf "The %q shortcode with parameter 'globalPath' was unable to find %s: see %s" $.Name $globalPath $.Position }}
+    {{- end }}
+{{ else }}
+	{{- errorf "The %q shortcode requires a single parameter, either 'globalPath' or 'localPath'. See %s" .Name .Position }}
+{{ end }}
+

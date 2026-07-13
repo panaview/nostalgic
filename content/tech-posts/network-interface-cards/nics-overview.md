@@ -23,8 +23,8 @@ More interesting details which are out-of-scope here:
 - Storage/NIC interfacing
 
 IETF has interests in NIC because:
-- NIC can play a role in protocol implementstioon
-- Nodes that perform both host and forwarding functjions
+- NIC can play a role in protocol implementation
+- Nodes that perform both host and forwarding functions
 - NICs can acelerate host protocol processing (TCP, UDP, QUIC, TLS, IPsec)
 - Accelerate forwarding functions (L2 -> Ln filtering and forwarding, QOS
   handling)
@@ -54,7 +54,7 @@ NIC wakes up, pull packets into local memory using DMA, might perform offload pr
 
 On receive path, the host sets up a set of packet buffers where packets will be stored in its memory and put these into the RX descriptors.
 
-When the NIC receives a packet it deserializes the packet and does some processing nd takes next receive descriptor in the queue, dmas the packet into the host memory, sets the lenght in the reiceve descirptor, increases receiver pointer in its receive queue. Then sends an actual sysmte inerrupt to warn the host that packets have been received
+When the NIC receives a packet it deserializes the packet and does some processing nd takes next receive descriptor in the queue, dmas the packet into the host memory, sets the length in the receive descirptor, increases receiver pointer in its receive queue. Then sends an actual sysmte inerrupt to warn the host that packets have been received
 
 ---
 
@@ -64,8 +64,7 @@ When the NIC receives a packet it deserializes the packet and does some processi
   - Basic Offloads (Ethernet checksum ofload)
 - Data plane acceleration (2000s)
   - Optimization for multicore cpus
-  hardware data plane offload - mostly fixed function devices
-  tunneling ipsec qos offloads
+  hardware data plane offload - mostly fixed function devices tunneling ipsec qos offloads
 - Programmability (2010s)
   - FPGAs and NPUs with programmable data plane
   - General purpose processors with programmable data and control planes
@@ -167,7 +166,6 @@ Receive Packet Steering / Rx
 is used to only have flows associated with this application go on a specific queue associated with this CPU
 - RFS Receive Flow Steering is software variant
 - aRFS accelerated RFS is the hardware variant
-
 
 
 ## Data Plane in Hardware:
