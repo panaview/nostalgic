@@ -32,11 +32,13 @@ title = 'Dev: Introduction to eBPF'
 
 ...
 
-# Example Programs
+# Code Example
 
 ```python
 {{% get-page-resource-content localPath="ebpf_example.py" %}}
 ```
+
+Cisco-U has a basic course showing how to create a packet filtering program with eBPF: https://u.cisco.com/tutorials/packet-filtering-with-ebpf-5582
 
 # Reference
 

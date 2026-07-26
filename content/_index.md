@@ -46,6 +46,8 @@ Mindmaps of topics I am interested in:
 ### eBPF
 ### DPDK
 ### RFC1918
+### SRV6
+### MPLS
 ## Automation
 ### Ansible
 ### Terraform
@@ -67,6 +69,7 @@ Mindmaps of topics I am interested in:
 ##### False-sharing concerns
 ##### Cache alignment and padding
 ##### Big-endian/Little-endian (and network-order)
+##### Cache Coherency
 ### NIC
 #### Offloading
 #### Programming DPUs (P4, x86/aarch integrated cores)

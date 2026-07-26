@@ -1,0 +1,11 @@
+<div class="toc">
+  <h2>Latest Publications</h2>
+  <ul class="texts">
+    {{ range first 20 (where site.RegularPages.ByDate.Reverse "Type" "in"
+    site.Params.mainSections) }}
+    <li class="text-title">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
