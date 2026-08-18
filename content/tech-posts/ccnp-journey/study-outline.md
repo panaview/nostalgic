@@ -10,8 +10,12 @@ website for CCNP ENCOR (https://u.cisco.com/paths/implementing-operating-cisco-e
 NB: Wireless Networking will be skipped since it is not part
 of the CCNP ENCOR exam anymore after the recent revision.
 
+Revision items Legend: ✏️ Content - 🂡 Flashcards - 🔻 Red Line
+
+
+
 - (1) Network Switching
-  - (1.a) Examining Cisco Enterprise Network Architecture
+  - (1.a) Examining Cisco Enterprise Network Architecture ✏️
   - (1.b) Cisco Switching Paths
   - (1.c) Implementing Campus LAN Connectivity
   - (1.d) Building Redundant Swithed Topology
