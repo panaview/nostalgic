@@ -18,7 +18,7 @@ Revision items Legend: ✏️ Content - 🂡 Flashcards - 🔻 Red Line - ❎ Sk
   - (1.a) Examining Cisco Enterprise Network Architecture ✏️
   - (1.b) Cisco Switching Paths ✏️
   - (1.c) Implementing Campus LAN Connectivity ✏️
-  - (1.d) Building Redundant Swithed Topology
+  - (1.d) Building Redundant Swithed Topology ✏️
   - (1.e) Implementing Network Reduandancy
   - (1.f) Implementing Layer 2 Port Aggregation
   - (1.g) Introducing QoS
